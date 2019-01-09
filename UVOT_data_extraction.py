@@ -1,10 +1,3 @@
-#a = "   jhj  hsgt jshyu"
-#print a.find('js')
-#if a.startswith("h") == False:
-#    start = a.find('js')
-#    end = a.find('u')
-#print a[start:end]
-#-------------------- Exposure Time ------------------------------
 column_SEQ = []
 column_MJD = []
 column_ET = []
