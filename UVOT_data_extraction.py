@@ -96,7 +96,7 @@ for j in line_num_of_w2Mag:
        column_W2mag.append(lines[j][start+2:end]+3*" ")
 
 # make new files
-f = open("Vardan.txt",'w')
+f = open("xyz.txt",'w')
 for a,b,c,d,e, g,h,i in zip(column_SEQ,column_MJD,column_Vmag,column_Bmag, column_Umag,column_W1mag, column_M2mag, column_W2mag):
    f.write(a)
    f.write(b)
